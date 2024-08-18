@@ -1,7 +1,5 @@
-st="hello"
-s=list(st)
+s="hello"
 for i in range(1,6):
-    n=-i
-    print(s[n],end="")
+    print(s[-i],end="")
 
 
